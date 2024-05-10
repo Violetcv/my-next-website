@@ -7,7 +7,7 @@ import { sendGTMEvent } from '@next/third-parties/google'
 function Jumbotron() {
 
   function handleClick() {
-    alert('Button Clicked! GTM sent!');
+    alert('Button Clicked! GTM sent! GUA sent!');
     sendGTMEvent({ event: 'buttonClicked', value: 'xyz' });
   }
 //   () => sendGTMEvent({ event: 'buttonClicked', value: 'xyz' })
