@@ -2,13 +2,15 @@
 
 import React from 'react';
 import './jumbotron.css';
-import { sendGTMEvent } from '@next/third-parties/google'
+import { sendGTMEvent, sendGAEvent } from '@next/third-parties/google'
 
 function Jumbotron() {
 
   function handleClick() {
     alert('Button Clicked! GTM sent! GUA sent!');
     sendGTMEvent({ event: 'buttonClicked', value: 'xyz' });
+    sendGAEvent({ event: 'buttonClicked', value: 'xyz' });
+    window.location.href = 'https://www.saeternus.com/';
   }
 //   () => sendGTMEvent({ event: 'buttonClicked', value: 'xyz' })
 
