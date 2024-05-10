@@ -16,6 +16,11 @@
   }
 }
 
+.p-24 {
+  padding: 2rem;
+  /* margin-top: 3rem; */
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
