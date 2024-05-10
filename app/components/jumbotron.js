@@ -17,9 +17,10 @@ function Jumbotron() {
   return (
     <div className="jumbotron">
       <div className='container-jumbotron'>
-      <h1>Welcome to My React App</h1>
-      <p>This is a Basic Jumbotron. You can personalize it <strong>however</strong> you want!</p>
-      <p>This is a simple React app with a navbar, jumbotron, sign-in (using Firebase), and about pages.</p>
+      <h1>Welcome to My Google Tag Manager and Google Universal Analytics tester</h1>
+      <p>Please allow the page to load <strong>completely</strong>.</p>
+      <p>Following which please click on the button below, which will redirect you to a webpage using an outbound link.</p>
+      <p>If you make any observations of note, please inform Chhavi Verma.</p>
       <button className='pretty-button' onClick={handleClick}>Click Me!</button>
       </div>
   </div>
