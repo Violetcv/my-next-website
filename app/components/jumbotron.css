@@ -1,8 +1,8 @@
 .jumbotron {
     padding: 20px;
     text-align: center;
-    height: 500px;
-    color: #4d2427;
+    height: auto;
+    color: hsl(356, 36%, 22%);
   }
   
   .jumbotron h1 {
@@ -10,19 +10,19 @@
   }
   
   .container-jumbotron {
-    border: 2px solid #9b7e96;
+    border: 2px solid #A87676;
     border-radius: 15px; /* Border radius for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle shadow effect */
-    padding: 100px; /* Padding inside the jumbotron */
+    box-shadow: 0 4px 8px rgba(92, 40, 79, 0.1); /* Box shadow for a subtle shadow effect */
+    padding: 50px; /* Padding inside the jumbotron */
     background-color: #fff; /* Background color for the jumbotron */
-    margin: 50px;
+    margin: 20px;
   }
   
   .pretty-button {
-    background-color: #4b1246;
+    background-color: #A87676;
     padding: 10px 250px;
     font-size: 18px;
-    color: #f3aeed;
+    color: #fff;
     margin: 60px 0 0 0;
     display: inline-block;
     text-decoration: none;
@@ -30,3 +30,25 @@
     border-radius: 15px;
     margin-bottom: 30px;
   }
+
+  /* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .container-jumbotron {
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+
+  .pretty-button {
+    padding: 10px 40px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container-jumbotron {
+    padding: 20px; /* Further reduce padding for smaller screens */
+  }
+
+  .pretty-button {
+    padding: 10px 30px; /* Further adjust padding for smaller screens */
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+}
