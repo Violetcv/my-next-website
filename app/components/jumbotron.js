@@ -7,7 +7,7 @@ import { sendGTMEvent, sendGAEvent } from '@next/third-parties/google'
 function Jumbotron() {
 
   function handleClick() {
-    alert('Button Clicked! GTM sent! GUA sent!');
+    alert('Button Clicked! GTM sent!');
     sendGTMEvent({ event: 'buttonClicked', value: 'xyz' });
     window.location.href = 'https://www.saeternus.com/';
   }
