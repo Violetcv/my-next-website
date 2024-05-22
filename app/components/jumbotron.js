@@ -9,7 +9,6 @@ function Jumbotron() {
   function handleClick() {
     alert('Button Clicked! GTM sent! GUA sent!');
     sendGTMEvent({ event: 'buttonClicked', value: 'xyz' });
-    sendGAEvent({ event: 'buttonClicked', value: 'xyz' });
     window.location.href = 'https://www.saeternus.com/';
   }
 //   () => sendGTMEvent({ event: 'buttonClicked', value: 'xyz' })
